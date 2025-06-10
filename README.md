@@ -2,7 +2,7 @@
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
 
-liberar a porta 5050
+liberar a porta 8080
 
 sudo apt update
 
