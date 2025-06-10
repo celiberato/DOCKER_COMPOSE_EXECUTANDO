@@ -24,6 +24,7 @@ sudo systemctl status docker
 
 sudo usermod -aG docker ${USER}
 
+## OPCIONAL
 su - ${USER}
 
 groups
