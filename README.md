@@ -22,9 +22,13 @@ sudo systemctl status docker
 
 sudo systemctl status docker
 
-sudo usermod -aG docker ${USER}
+sudo apt  install docker-compose 
+
 
 ## OPCIONAL
+
+sudo usermod -aG docker ${USER}
+
 su - ${USER}
 
 groups
