@@ -30,6 +30,9 @@ curl -SL https://github.com/docker/compose/releases/download/v2.27.1/docker-comp
    chmod +x ~/.docker/cli-plugins/docker-compose
 
 docker compose version
+
+sudo apt install maven
+
    
 ## OPCIONAL
 
