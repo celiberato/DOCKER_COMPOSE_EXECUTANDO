@@ -37,8 +37,7 @@ java -version
 
 suddo apt-get install openjdk-17-jdk 
 
-sudo update-alternatives --config javac
-
+sudo update-alternatives --config java
 
 ## OPCIONAL
 
