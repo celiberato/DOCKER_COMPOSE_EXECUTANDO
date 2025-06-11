@@ -36,7 +36,10 @@ sudo apt install maven
 java -version
 
 suddo apt-get install openjdk-17-jdk 
-   
+
+sudo update-alternatives --config javac
+
+
 ## OPCIONAL
 
 sudo usermod -aG docker ${USER}
