@@ -33,6 +33,9 @@ docker compose version
 
 sudo apt install maven
 
+java -version
+
+suddo apt-get install openjdk-17-jdk 
    
 ## OPCIONAL
 
