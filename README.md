@@ -39,6 +39,10 @@ suddo apt-get install openjdk-17-jdk
 
 sudo update-alternatives --config java
 
+## APAGAR TODOS CONTAINERS
+
+sudo docker rm $(sudo docker ps -a -q)
+
 ## OPCIONAL
 
 sudo usermod -aG docker ${USER}
