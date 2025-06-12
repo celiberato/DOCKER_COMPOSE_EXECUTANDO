@@ -35,7 +35,7 @@ sudo apt install maven
 
 java -version
 
-suddo apt-get install openjdk-17-jdk 
+sudo apt-get install openjdk-17-jdk 
 
 sudo update-alternatives --config java
 
