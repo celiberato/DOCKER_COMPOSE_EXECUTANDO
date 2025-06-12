@@ -18,7 +18,7 @@ apt-cache policy docker-ce
 
 sudo apt install docker-ce
 
-sudo systemctl status docker
+sudo systemctl start docker
 
 sudo systemctl status docker
 
