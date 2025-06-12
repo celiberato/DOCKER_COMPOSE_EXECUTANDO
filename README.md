@@ -39,7 +39,9 @@ suddo apt-get install openjdk-17-jdk
 
 sudo update-alternatives --config java
 
-## APAGAR TODOS CONTAINERS
+## OUTROS
+
+ps -aux | grep 9081
 
 sudo docker rm $(sudo docker ps -a -q)
 
