@@ -41,8 +41,9 @@ sudo update-alternatives --config java
 
 ## OUTROS
 
-ps -aux | grep 9081
+sudo lsof -i tcp:8080
 
+kill -15 PID 
 sudo docker rm $(sudo docker ps -a -q)
 
 ## OPCIONAL
