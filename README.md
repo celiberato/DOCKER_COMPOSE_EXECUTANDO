@@ -43,7 +43,7 @@ sudo update-alternatives --config java
 
 sudo lsof -i tcp:8080
 
-kill -15 PID 
+kill -9 PID 
 
 sudo docker rm $(sudo docker ps -a -q)
 
