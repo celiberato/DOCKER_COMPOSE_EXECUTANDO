@@ -41,6 +41,7 @@ sudo update-alternatives --config java
 
 ## OUTROS
 
+remover todos os containers: docker system prune -a
 sudo lsof -i tcp:8080
 
 kill -9 PID 
