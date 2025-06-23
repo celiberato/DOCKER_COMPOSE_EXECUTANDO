@@ -43,8 +43,7 @@ sudo update-alternatives --config java
 
 ## OUTROS
 
-tar -czf projetos.tar.gz Projetos/
-
+tar -xvzf /path/to/yourfile.tgz
 
 remover todos os containers: docker system prune -a
 
