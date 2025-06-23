@@ -43,6 +43,9 @@ sudo update-alternatives --config java
 
 ## OUTROS
 
+tar -czf projetos.tar.gz Projetos/
+
+
 remover todos os containers: docker system prune -a
 
 sudo lsof -i tcp:8080
